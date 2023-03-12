@@ -8,12 +8,16 @@ import categoryRoute from './routes/categoryRoute.js'
 import productRoute from './routes/productRoute.js'
 import cores from 'cors'
 import path from 'path'
+import {fileURLToPath} from 'url'
 
 
 import cors from 'cors'
 
 //mongodb connection
 connectDB()
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dir_name(__filename)
 
 //configenv
 
