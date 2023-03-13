@@ -17,7 +17,7 @@ import cors from 'cors'
 connectDB()
 
 const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dir_name(__filename)
+const __dirname = path.dirname(__filename)
 
 //configenv
 
